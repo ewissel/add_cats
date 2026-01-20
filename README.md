@@ -2,6 +2,9 @@
 
 This is a package written to easily add ASCII art cats to printed messages in python. Creating a repo by popular demand (one person asked)
 
+*To install this repo*, run `pip install add_cats_ewissel`. [PyPi page here](https://pypi.org/project/add-cats-ewissel/).
+
+
 To use this module, add `from add_cats_ewissel import get_cat` to the top of your python3 script as you'd do for importing any other module. `get_cat()` has an optional argument `cat_type` with options `['small', 'big', 'sad]`. 
 These are as follows: 
 
