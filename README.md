@@ -2,6 +2,22 @@
 
 This is a package written to easily add ASCII art cats to printed messages in python. Creating a repo by popular demand (one person asked)
 
+To use this module, add `from add_cats_ewissel import get_cat` to the top of your python3 script as you'd do for importing any other module. `get_cat()` has an optional argument `cat_type` with options `['small', 'big', 'sad]`. 
+These are as follows: 
+
+* `get_cat(cat_type = "small")`  default, returns a one line cat (or two for special caseS)
+
+* `get_cat(cat_type = "big")` returns a big, multi-line cat to celebrate coding successes with you (or boost morale)
+
+* `get_cat(cat_type = "sad")` returns a sad cat, one to many lines, to commiserate with you when your code produces an error.
+
+
+You can see [examples in the python test scripts in this repo]( https://github.com/ewissel/add_cats/tree/main/tests).
+
+
+
+
+
 Currently this package requires python3, not out of neccessity, but to encourage best practices with my coworkers. It is time to release python2 to the past. You may need to run `python3 -m pip install --upgrade pip` (unix) or `py -m pip install --upgrade pip` (windows) as well when installing this package. 
 
 This package follows a standard MIT license, meaining you can do what you want with this, but you can'd hold me liable for the ASCII cat usage [:)](https://www.tldrlegal.com/license/mit-license)
